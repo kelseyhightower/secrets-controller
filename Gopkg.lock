@@ -1,0 +1,91 @@
+memo = "3fa9016b334ac03ccf390822bc2a17315398ab97a3dfda18ae75d9cc307be4b9"
+
+[[projects]]
+  name = "github.com/ericchiang/k8s"
+  packages = [".","api/resource","api/unversioned","api/v1","apis/apps/v1alpha1","apis/apps/v1beta1","apis/authentication/v1","apis/authentication/v1beta1","apis/authorization/v1","apis/authorization/v1beta1","apis/autoscaling/v1","apis/autoscaling/v2alpha1","apis/batch/v1","apis/batch/v2alpha1","apis/certificates/v1alpha1","apis/certificates/v1beta1","apis/extensions/v1beta1","apis/imagepolicy/v1alpha1","apis/meta/v1","apis/policy/v1alpha1","apis/policy/v1beta1","apis/rbac/v1alpha1","apis/rbac/v1beta1","apis/settings/v1alpha1","apis/storage/v1","apis/storage/v1beta1","runtime","runtime/schema","util/intstr","watch/versioned"]
+  revision = "bd3351b0ceb817083a3226c152e3a2c9bb2849c9"
+  version = "v0.3.0"
+
+[[projects]]
+  name = "github.com/fatih/structs"
+  packages = ["."]
+  revision = "a720dfa8df582c51dee1b36feabb906bde1588bd"
+  version = "v1.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golang/protobuf"
+  packages = ["proto"]
+  revision = "18c9bb3261723cd5401db4d0c9fbc5c3b6c70fe8"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/errwrap"
+  packages = ["."]
+  revision = "7554cd9344cec97297fa6649b055a8c98c2a1e55"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/go-cleanhttp"
+  packages = ["."]
+  revision = "3573b8b52aa7b37b9358d966a898feb387f62437"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/go-multierror"
+  packages = ["."]
+  revision = "ed905158d87462226a13fe39ddf685ea65f1c11f"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/go-rootcerts"
+  packages = ["."]
+  revision = "6bb64b370b90e7ef1fa532be9e591a81c3493e00"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/hcl"
+  packages = [".","hcl/ast","hcl/parser","hcl/scanner","hcl/strconv","hcl/token","json/parser","json/scanner","json/token"]
+  revision = "a4b07c25de5ff55ad3b8936cea69a79a3d95a855"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/vault"
+  packages = ["api","helper/compressutil","helper/jsonutil"]
+  revision = "92dd48be2efcf520c7eb1117e47b1a0eff997e88"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/mitchellh/go-homedir"
+  packages = ["."]
+  revision = "b8bc1bf767474819792c23f32d8286a45736f1c6"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/mitchellh/mapstructure"
+  packages = ["."]
+  revision = "cc8532a8e9a55ea36402aa21efdf403a60d34096"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/sethgrid/pester"
+  packages = ["."]
+  revision = "4f4c0a67b6496764028e1ab9fd8dfb630282ed2f"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["http2","http2/hpack","idna","lex/httplex"]
+  revision = "feeb485667d1fdabe727840fe00adc22431bc86e"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/text"
+  packages = ["internal/gen","internal/triegen","internal/ucd","secure/bidirule","transform","unicode/bidi","unicode/cldr","unicode/norm","unicode/rangetable"]
+  revision = "470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/tools"
+  packages = ["go/ast/astutil","go/buildutil","go/loader"]
+  revision = "9862c35773a14ca029b7da49c410111ba13830a0"
