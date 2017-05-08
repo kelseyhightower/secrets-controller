@@ -1,6 +1,6 @@
 # Secrets Controller
 
-The secrets-controller is example Kubernetes controller that syncs a single vault secret to Kubernetes.
+The secrets-controller is an example Kubernetes controller that syncs a single vault secret to Kubernetes.
 
 ## Usage
 
